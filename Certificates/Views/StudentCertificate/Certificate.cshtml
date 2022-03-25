@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3>Instituto IT-Arg</h3>
+    <h2 class="display-4">Certificado</h2>
+    <hr />
+    <h3>@ViewBag.Student.Name</h3>
+    <span>Ha aprobado el curso:</span>
+    <h4>@ViewBag.Student.Certificate.Name</h4>
+    <span>fecha: @ViewBag.Student.Certificate.FinishDate</span>
+
+
+</div>
