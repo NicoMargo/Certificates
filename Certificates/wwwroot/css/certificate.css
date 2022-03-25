@@ -1,0 +1,23 @@
+﻿.certificate-box {
+    border-color: #0060a5;
+    border-width: 15px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 37rem;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.logo{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 20%;
+}
+.approvedCourse {
+    font-size: 1.5rem;
+    color: #0060a5;
+}
