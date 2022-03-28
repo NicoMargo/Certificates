@@ -1,8 +1,70 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<form method="get" action="/StudentCertificate/Certificate">
+    <div class="text-center mb-5" id="divValidateCertificate">        
+        <h4 class="display-4 text-white pt-2">Valide su certificado!</h4>
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <input type="text" placeholder="Codigo de certificado" name="code" class="form-control"/>
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+    </div>
+</form>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        <div class=mt-5>
+            <h2>Nuestros cursos</h2>
+            <hr />
+        </div>
+        <div class="mt-5">
+            <div class="row ms-5">
+                <div class="col-md-4">
+                     <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://it-arg.com/wp-content/uploads/2022/03/IT-Arg-Febrero-22-4.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Armado y Reparación de Computadoras</h5>
+                            <ul>
+                                <li>Diseño, armado, Puesta en marcha</li>
+                                <li>Instalación, Actualización y Optimización</li>
+                                <li>Reparación & Mantenimiento</li>
+                            </ul>
+                            <a href="https://it-arg.com/?page_id=21" class="btn btn-primary">Mas informacion</a>
+                          </div>
+                      </div>
+                 </div>
+                  <div class="col-md-4">
+                     <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://it-arg.com/wp-content/uploads/2022/03/IT-Arg-Febrero-22-3b.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Administración de Redes Informáticas</h5>
+                             <ul>
+                                <li>Administrador de Infraestructura y Networking</li>
+                                <li>Administrador de Redes Microsoft</li>
+                                <li>Administración de Redes WAN</li>
+                            </ul>
+                            <a href="https://it-arg.com/?page_id=21" class="btn btn-primary">Mas informacion</a>
+                          </div>
+                      </div>
+                 </div>
+                  <div class="col-md-4">
+                     <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://it-arg.com/wp-content/uploads/2022/03/IT-Arg-Febrero-22-5.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Especialización en Seguridad Informática</h5>
+                                <ul>
+                                    <li>Introducción a la Seguridad Informática</li>
+                                    <li>Redes “Seguras”</li>
+                                    <li>Redundancia Hardware de Servidores</li>
+                                </ul>                            
+                                <a href="https://it-arg.com/?page_id=21" class="btn btn-primary">Mas informacion</a>
+                          </div>
+                      </div>
+                 </div>                  
+            </div>
+        </div>
+        <img class="mt-5" src="https://it-arg.com/wp-content/uploads/2022/01/cropped-IT-Arg-Campana-1-Portada-Linkedin-scaled-1.jpg" width="100%" height="auto" />
+
+       

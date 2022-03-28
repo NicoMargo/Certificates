@@ -21,3 +21,9 @@
     font-size: 1.5rem;
     color: #0060a5;
 }
+
+#divValidateCertificate {
+    background-image: url(../img/bannerIndex.jpg);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
